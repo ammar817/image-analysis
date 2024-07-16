@@ -38,7 +38,7 @@ plt.subplot(1, 3, 3)
 plt.title('Edge Detected Image')
 plt.imshow(edges_rgb)
 plt.axis('off')
-# HISTOGRAM
+# "HISTOGRAM"
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -66,7 +66,7 @@ for (channel, color) in zip(channels, colors):
 # Display the histogram
 plt.show()
 
-# ROTATED IMAGE
+# "ROTATED IMAGE"
 import cv2
 from matplotlib import pyplot as plt
 
